@@ -1,0 +1,146 @@
+* {
+    margin:0; padding:0;
+  }   
+
+body {
+    display: block;
+    
+}
+
+.clearfix::after {
+    content: “”;
+    display: block;
+    clear: both;
+}
+
+
+.header {
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.main {
+    display: block;
+}
+
+.item1 {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    float: right;
+    right:25px;
+    position: relative;
+    border: solid  8px #FFFFFF;
+    }
+
+.item2 {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    float: right;
+    right:25px;
+    position: relative;
+    border: solid  8px #FFFFFF;
+    }
+
+.item3 {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    float: right;
+    right:25px;
+    position: relative;
+    border: solid  8px #FFFFFF;
+
+}
+
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.right-container {
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+
+.right {
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    float: left;  
+  }
+
+.boxs {
+    box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  background-color: #ff863f;
+  margin-bottom: 10px;
+  border: solid 5px white;
+    
+}
+
+
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+    width: 400px;
+    clear: both;
+}    
+
+
+
+        
+@media screen and (max-width: 479px) {
+    .wrapper {
+        width: 200px;
+        height: 600px;
+    }
+
+    .header {
+        width: 200px;
+        height: 200px;
+        position: relative;
+     }
+    .container {
+        width: 60px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        padding: 8px 0px;
+        margin-right: 40px;
+        
+    }
+    .left {
+        width: 200px;
+        height: 100px;
+        background-color: #80bfa8;
+            }
+    .right{
+        width: 200px;
+        height: 200px;
+        
+    } 
+    .right-container {
+       padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    .footer{
+        width: 200px;
+        height:100px;
+        background-color:#d98d30;
+    }
+}
